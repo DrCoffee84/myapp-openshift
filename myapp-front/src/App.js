@@ -35,8 +35,7 @@ class App extends React.Component {
 
   callApiRest = () => {
 
-    var url = `http://localhost:8080/health`;
-
+    var url = `${process.env.REACT_APP_NODE_API}/health`;
     // AJAX 
     fetch(url)
       .then(response => {
