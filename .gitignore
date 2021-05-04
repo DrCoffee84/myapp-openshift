@@ -1,0 +1,5 @@
+myapp-front/node_modules
+myapp-front/package-lock.json
+myapp-back/node_modules
+myapp-back/package-lock.json
+.vscode
